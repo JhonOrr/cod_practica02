@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     margin:0;
@@ -25,19 +26,59 @@
     font-weight: 500;
     margin-left: 40px;
 }
-main{
-    margin: auto 40px;
-    
+.text-box{
+	margin: auto 40px;	
+}
+.text-box h2{ 
+    margin: 30px auto;
+	font-family: 'Roboto', sans-serif;
+	font-size : 28px;
+	color: #87119A;
+    font-weight: 700;
+}
+.text-box p{
+    margin: 30px 0;
 }
 .img-box{
-
-    background-color: antiquewhite;
-    border: 4px solid #333;
+	margin:auto  30px;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    border-spacing: 0px;
+	justify-content: space-between;
+	align-items: center;
+}
+.img-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.img-box img{
+	width:410px;
+}
+.img-elm{
+    margin: 50px;
+}
+.icon{
+    width: 8px;
+    height: 52px;
+    background-color: #87119A;
+}
+.title{
+    border-left: 6px solid #87119A;
+    padding-left:  20px;
+}
+.img-elm2 img{
+    width: 282px;
+    height: 251px;
+}
 
+.img-box3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-box3 img{
+width: 282px;
+height: 251px;
+margin:auto  30px;
+}
