@@ -27,7 +27,7 @@
     margin-left: 40px;
 }
 .text-box{
-	margin: auto 40px;	
+	margin: 20px 40px;	
 }
 .text-box h2{ 
     margin: 30px auto;
@@ -38,6 +38,9 @@
 }
 .text-box p{
     margin: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 .img-box{
 	margin:auto  30px;
@@ -55,7 +58,7 @@
 	width:410px;
 }
 .img-elm{
-    margin: 50px;
+    margin: 20px;
 }
 .icon{
     width: 8px;
@@ -78,7 +81,27 @@
 }
 
 .img-box3 img{
-width: 282px;
-height: 251px;
-margin:auto  30px;
+    width: 282px;
+    height: 251px;
+    margin:auto  30px;
+}
+
+.img-box4{
+    margin: auto 30px  ;
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ecefa ;
+}
+footer p {
+    margin: 30px;
+}
+
+.contact{
+    display: flex;
+    margin-bottom: 250px;
 }
