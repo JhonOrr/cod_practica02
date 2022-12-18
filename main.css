@@ -14,11 +14,25 @@
 .header ul{
     display: flex;
 }
-.header li{ 
+.opciones-menu li{ 
+    box-sizing: border-box;
     list-style: none;
-    padding: 25px;
+    height: 28px;
+    margin: 25px;
     font-size: 24px;
+    cursor: pointer;
+    color: #707070;
+    font-weight: 400;
+    /* border: solid #87119A;   */
 }
+
+.opciones-menu li:hover{
+    margin-bottom: 25px;
+    color: #87119A;
+    font-weight: 700;
+    border-bottom: solid 1px #87119A;
+}
+
 .logo{
     
     font-family: 'Fascinate', cursive;
@@ -96,6 +110,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #9ecefa ;
+    height: 77px;
 }
 footer p {
     margin: 30px;
@@ -104,4 +119,11 @@ footer p {
 .contact{
     display: flex;
     margin-bottom: 250px;
+}
+.text-box2{
+    color: #87119A;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
 }
